@@ -1,0 +1,269 @@
+/* *{
+    background-color: rgb(0, 0, 0);
+} */
+body{
+    margin: 0px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    position: absolute;
+    
+    top: 0px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    display: flex;
+   margin: 30px;
+   text-decoration: none;
+   color: rgb(242, 240, 255);
+   
+
+}
+nav ul li a:hover{
+   color: yellow;
+   text-shadow: 3px 5px 5px;
+
+
+}
+
+    
+
+#main{
+    position: absolute;
+    top: 80px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.699);
+    background-image: url(https://cdn.ndtv.com/tech/images/gadgets/world_wide_web_tim_berner_lee_reuters.jpg);
+    /* background-color: rgba(0, 0, 0, 0.973); */
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 0px;
+}
+#name{
+   
+    color: yellow ;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.329);
+    
+  
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    padding: 1px;
+    border: 1px;
+    border-radius: 10px;
+}
+button{
+    background-color: black;
+    border: 2px solid  yellow;
+    color:rgb(255, 255, 255);
+}
+   
+#apic img{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+.intro{
+    
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0);
+    margin-left: 900px;
+    padding: 10px;
+    justify-content: center;
+    text-align: justify;
+}
+h5{
+    text-align: center;
+    color: orange;
+   
+}
+h4{
+    text-align: center;
+    font-size: medium;
+    color: yellow;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.services{
+    position: absolute;
+    border-top: 2px solid white;
+
+    background-color: rgba(0, 0, 0, 0.74);
+    top: 698px;
+    display: flex;
+    padding: 50px;
+    margin: 0px;
+    width: 1800px;
+    align-items: center;
+    height: 280px;
+    
+}
+.serv{
+    background-color: rgb(138, 116, 20);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#servname{
+    background-color: black;
+    position: absolute;
+    top:0px ;
+    left:900px;
+    color: yellow;
+}
+.proj{
+    background-color: rgba(0, 0, 0, 0.74);
+    border-top: 2px solid white;
+   text-align: justify;
+    margin: 0px;
+    padding: 50px;
+    position: absolute;
+    top: 1050px;
+
+}
+.project{
+    display: flex;
+}
+.propic{
+    background-color: rgb(218, 179, 3);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);    
+}
+.utube1{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    background-color: black;
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+.utube2{
+    position: absolute;
+    top: 850px;
+    left: 0px;
+    background-color: black;
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+iframe{
+    border: 2px solid black;
+    margin: 20px;
+
+}
+#update{
+    color: yellow;
+    position: absolute;
+    top: 450px;
+    left: 47%;
+}
+.map{
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    top: 2250px;
+    background-color: black;
+    left: 0px;
+    padding: 0px;
+}
+#mapa{
+    color: yellow;
+    align-items: center;
+    left: 48%;
+    text-align: center;
+}
+.foot{
+    position: absolute;
+    top: 2750px;
+    width: 100%;
+}
+@media screen and (max-width:400px){
+    *{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+ nav{
+    width: 400px;
+    background-color: yellow;
+    color: black;
+ }
+ video{
+    width: 400px;
+ }
+ nav ul li a{
+    margin: 5px;
+    color: black;
+ }
+ #main{
+    width: 400px;
+    flex-direction: column;
+    
+ }
+ #apic img{
+    width: 100px;
+    
+
+ }
+
+.services{
+    flex-direction: column;
+    width: 400px;
+}
+.proj{
+    flex-direction: column;
+    width: 400px;
+    top: 3000px;
+
+}
+.project{
+    flex-direction: column;
+}
+.utube1,.utube2{
+    flex-direction: column;
+
+}
+.map{
+    width: 400px;
+
+}
+.propic{
+    width: 380px;
+}
+
+}
